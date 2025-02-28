@@ -15,13 +15,14 @@ public class Main {
         leitor.close();
     }
     public static void desafio02(){
-        Scanner leitor = new Scanner(System.in);
+       Scanner leitor = new Scanner(System.in);
 
         System.out.print("Dia: ");
         int dia = leitor.nextInt();
+        leitor.nextLine();
 
         System.out.print("Mês: ");
-        int mes = leitor.nextInt();
+        String mes = leitor.nextLine();
 
         System.out.print("Ano: ");
         int ano = leitor.nextInt();
