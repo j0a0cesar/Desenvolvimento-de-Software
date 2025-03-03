@@ -21,6 +21,8 @@ public class Main {
                 float kel = temp + 273;
                 System.out.print("A temperatura em Kelvin: "+kel);
                 break;
+            default:
+                System.out.print("Opção Invalida!\nTente Novamente.");
         }
 
             leitor.close();
