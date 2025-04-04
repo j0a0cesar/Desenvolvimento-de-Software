@@ -19,6 +19,14 @@ public class Main {
         persongagems[0] = new Persongagem(1, 1, "🚗");
         persongagems [1] = new Persongagem(1,2,"🏍");
 
+        System.out.println("-----MENU-----");
+            System.out.println("Selecione o persongem que deseja usar:");
+            System.out.println("");
+
+            System.out.println("[W]: Pra cima [A]: Pro lado esquerdo [D]: Pro lado direito [S]: Pra Baixo;");
+            System.out.println("Escolha opção para onde que ir:");
+            char andar = input.next().charAt(0);
+
         for (int linha = 0; linha < 5; linha++) {
             for (int coluna = 0; coluna < 5; coluna++) {
 
