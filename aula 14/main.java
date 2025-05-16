@@ -13,6 +13,7 @@ public class Main {
 
             int idade = InputHelp.pegarNumero("idade: ");
             int peso = InputHelp.pegarNumero("peso: ");
+            int periodo = InputHelp.pegarNumeroRangne("Numero de 1 a 8", 1,8);
             /*try {
                 System.out.print("Digite uma idade: ");
 
